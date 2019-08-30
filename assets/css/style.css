@@ -3,7 +3,7 @@ header, section, footer {
     margin: 0 auto;
 }
 
-.rgame-image {
+.hangman-image, .rgame-image, .trivia-image, .rutgers-image, .rock-image {
     width: 200px;
     height: 200px;
 }
