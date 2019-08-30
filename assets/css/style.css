@@ -7,3 +7,18 @@ header, section, footer {
     width: 200px;
     height: 200px;
 }
+
+.hangman {
+    position: relative;
+}
+
+.hangman-text {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    left: 0px;
+    background-color: aqua;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
