@@ -3,3 +3,7 @@ header, section, footer {
     margin: 0 auto;
 }
 
+.rgame-image {
+    width: 200px;
+    height: 200px;
+}
