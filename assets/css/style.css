@@ -95,7 +95,7 @@ nav a:first-child {
     padding 30px;
     margin 0 0 40px 0;
     width: 100%
-    max-width: 650px;
+    max-width: 960px;
     float: left;
     border: 1px solid #ddd;
 }
@@ -128,10 +128,73 @@ footer {
 }
 
 .row {
-    width: 200px;
-    height: 200px;
     position: relative;
     float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
 }
 
+.row:nth-child(even) {
+    margin-right: 40px;
+}
+
+.row img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+}
+
+.row h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom:  0;
+}
+
+/*contact page */
+
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+label,
+input [type=text],
+input [type=email],
+textarea {
+    dispaly: block;
+    width: 100%;
+}
+
+input [type=text],
+input [type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    padding 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
 }
