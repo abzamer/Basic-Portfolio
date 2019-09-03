@@ -5,55 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Angelica Zamer</h1>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </header>
+    <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">Angelica Zamer</a>
+                    <nav>
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+            </div>
+        </header>
 
-    <hr>
-
-    <section class="portfolio"> 
-        <h2>Portfolio</h2>
-
-        <hr>
-
-        <section class="row 1">
-            <div class="hangman">
-                <div class="hangman-text"><p>Hangman</p></div>
-                <img class="hangman-image" src="https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80" alt="Hangman">
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Portfolio</h1>
+            <div id="portfolio-container">
+            <div class="row">
+                <img class="card-image" src="assets/images/fog.jpg" alt="Hangman">
+                <h3>Hangman</h3>
             </div>
 
-            <div class="rgame">
-                    <div class="rgame-text"><p>RPG Game</p></div>
-                <img class="rgame-image" src="https://images.unsplash.com/photo-1529448155365-b176d2c6906b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="RPG Game">
+            <div class="row">
+                    <img class="card-image" src="assets/images/rocks.jpg" alt="RPG Game">
+                    <h3>RPG Game</h3>
+            </div>
+
+            <div class="row">
+                    <img class="card-image" src="assets/images/sky.jpg" alt="Trivia Game">
+                    <h3>Trivia Game</h3>
+            </div>
+
+            <div class="row">
+                    <img class="card-image" src="assets/images/sunset.jpg" alt="Trivia Game">
+                    <h3>Rutgers Info Widget</h3>
+            </div>
+
+            <div class="row">
+                    <img class="card-image" src="assets/images/waves.jpg" alt="Rock Paper Scissors">
+                    <h3>Rock Paper Scissors</h3>
+            </div>
             </div>
         </section>
+    </div>
 
-        <section class="row2">
-            <div class="trivia">Trivia Game
-                <img class="trivia-image" src="http://www.hourdetroit.com/wp-content/uploads/sites/20/2018/02/Trivial20Pursuit.jpg" alt="Trivia Game">
-            </div>
-            <div class="rutgers">Rutgers Info Widget
-                <img class="rutgers-image" src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="Rutgers Info Widget">
-            </div>
-        </section>
-
-        <section class="row3">
-            <div class="rock">Rock Paper Scissors
-                <img class="rock-image" src="https://images.unsplash.com/photo-1522032662723-6649e699785f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Rock Paper Scissors">
-            </div>
-        </section>
-        </section>
-    </section>
-
-
-    <hr>
     <footer>
         Copyright &copy;
     </footer>
