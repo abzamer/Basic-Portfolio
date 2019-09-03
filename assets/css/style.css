@@ -18,6 +18,10 @@ body {
 }
 
 h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
+p:last-child {
     margin-bottom: 0;
 }
 
@@ -96,6 +100,14 @@ nav a:first-child {
     border: 1px solid #ddd;
 }
 
+.card-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
 .bio-image {
     width: 200px;
     height: auto;
@@ -122,20 +134,4 @@ footer {
     float: left;
 }
 
-.row:nth-child(even) {
-    margin-right: 30px;
-}
-
-.row img {
-    width: 100%;
-}
-
-#portfolio-container {
-    width: 450;
-}
-
-.row h3 {
-    position: absolute;
-    padding: 15px;
-    bottom: 20px;
 }
